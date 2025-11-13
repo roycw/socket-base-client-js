@@ -1,0 +1,34 @@
+{
+  "name": "socket-base-client-js",
+  "version": "1.0.0",
+  "description": "Socket base client side js library - A simple WebSocket client for Socket Base API",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "keywords": [
+    "websocket",
+    "socket",
+    "realtime",
+    "messaging",
+    "client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/socket-base-client-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/socket-base-client-js/issues"
+  },
+  "homepage": "https://github.com/yourusername/socket-base-client-js#readme"
+}
